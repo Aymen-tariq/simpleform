@@ -1,37 +1,104 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <style>
+        .body
+        {
+            padding-left: 200px;
+            margin: 100px 300px;
+           border-style:double;
+           text-align: justify;
+           background-color:floralwhite;
+        }
+        .form
+        {
+            border-style: solid;
+            width: 70%;
+        }
+       
+    </style>
+</head>
+<body class="body">
+    <form method="POST">
+<p><b>
+E-MAIL
+</b>
+<input type="text" name="email">
+</p>
 
-You can use the [editor on GitHub](https://github.com/AymenQ3/simpleform/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<p><b>
+NAME    </b>
+    <input type="text" name="fname">
+    </p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <p><b>
+COUNTRY        </b>       
+<select> 
+           <option>---Select Option---</option>
+           <option>Pakistan</option>
+           <option>Saudi Arabia</option>
+           <option>Turkey</option>
+       </select>
+      <b> CITY</b> 
+       <select>
+           <Option>
+               ---Select Option---
+           </Option>
+           <option>Abbottabad</option>
+           <option>Riyadh</option>
+           <option>Istanbul</option>
+       </select>
+        </p>
+<p>
+    <b>
+        ANSWER  </b>
+        <input type="radio"> RED 
+        <input type="radio"> GRAY 
+        <input type="radio"> BLUE 
+</p>
 
-### Markdown
+<p>
+    <b>
+        PREFERENCES  </b>
+        <input type="radio"> SPORTS 
+        <input type="radio"> POLITICS 
+        <input type="radio"> BUSINESS 
+</p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<table class="form">
+  <tr>
+      <td>
+    <b>
+    WEBSITES
+  </b> </td>
+  <td style="padding-right: 300px;">
+  <select multiple style="width: 100px;">
+<option>Digg</option>
+<option>Facebook</option>
+<option>Google</option>
+<option>Orkut</option>
+<option>Twitter</option>
+  </select>
+</td>
+</tr>
+</table>
+<table>
+    <tr>
+    <td>
+    <b>
+        ADDRESS 
+    </b></td>
+    <td>
+    <textarea name="a" cols="60" rows="5"></textarea>
+</td>
+</tr>
+</table>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AymenQ3/simpleform/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<p style="padding-left: 350px;">
+    <input type="submit" value="Save">
+    <input type="reset" value="Reset">
+</p>
+    </form>
+</body>
+</html>
