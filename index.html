@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <style>
+        .body
+        {
+            padding-left: 200px;
+            margin: 100px 300px;
+           border-style:double;
+           text-align: justify;
+           background-color:floralwhite;
+        }
+        .form
+        {
+            border-style: solid;
+            width: 70%;
+        }
+       
+    </style>
+</head>
+<body class="body">
+    <form method="POST">
+<p><b>
+E-MAIL
+</b>
+<input type="text" name="email">
+</p>
+
+<p><b>
+NAME    </b>
+    <input type="text" name="fname">
+    </p>
+
+    <p><b>
+COUNTRY        </b>       
+<select> 
+           <option>---Select Option---</option>
+           <option>Pakistan</option>
+           <option>Saudi Arabia</option>
+           <option>Turkey</option>
+       </select>
+      <b> CITY</b> 
+       <select>
+           <Option>
+               ---Select Option---
+           </Option>
+           <option>Abbottabad</option>
+           <option>Riyadh</option>
+           <option>Istanbul</option>
+       </select>
+        </p>
+<p>
+    <b>
+        ANSWER  </b>
+        <input type="radio"> RED 
+        <input type="radio"> GRAY 
+        <input type="radio"> BLUE 
+</p>
+
+<p>
+    <b>
+        PREFERENCES  </b>
+        <input type="radio"> SPORTS 
+        <input type="radio"> POLITICS 
+        <input type="radio"> BUSINESS 
+</p>
+
+<table class="form">
+  <tr>
+      <td>
+    <b>
+    WEBSITES
+  </b> </td>
+  <td style="padding-right: 300px;">
+  <select multiple style="width: 100px;">
+<option>Digg</option>
+<option>Facebook</option>
+<option>Google</option>
+<option>Orkut</option>
+<option>Twitter</option>
+  </select>
+</td>
+</tr>
+</table>
+<table>
+    <tr>
+    <td>
+    <b>
+        ADDRESS 
+    </b></td>
+    <td>
+    <textarea name="a" cols="60" rows="5"></textarea>
+</td>
+</tr>
+</table>
+
+<p style="padding-left: 350px;">
+    <input type="submit" value="Save">
+    <input type="reset" value="Reset">
+</p>
+    </form>
+</body>
+</html>
